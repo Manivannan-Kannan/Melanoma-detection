@@ -57,6 +57,10 @@ Final Model Summary: ![Model Evaluation](./ModelSummary.png)
     python train.py
     ```
 
+Note:-
+Download dataset from https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing 
+create data folder and extract the downloaded zip file and keep two folders as data/Train and data/Test
+
 ## Results
 The model achieves an accuracy of approximately 85% on the training set and 83% on the validation set. 
 The final model showcases well-balanced performance, displaying no signs of underfitting or overfitting.
