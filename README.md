@@ -51,7 +51,11 @@ The model is trained using the Adam optimizer and sparse categorical cross-entro
     ```
 
 ## Results
-The model achieves an accuracy of approximately 59% on the training set and 51% on the validation set. Further improvements can be made by fine-tuning the model and using a larger dataset.
+The model achieves an accuracy of approximately 85% on the training set and 83% on the validation set. 
+The final model showcases well-balanced performance, displaying no signs of underfitting or overfitting.
+The implementation of class rebalancing has enhanced the model's performance in both training and validation datasets.
+In total 30 epochs, the final model attains an accuracy of 85% on the training set and 83% on the validation set.
+The addition of batch normalization failed to enhance both training and validation accuracy.
 
 ## Future Work
 - Experiment with different model architectures and hyperparameters.
