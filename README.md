@@ -16,6 +16,8 @@ To improve the robustness of the model, data augmentation techniques are applied
 - Shear
 - Zoom
 - Horizontal Flip
+  
+Data Percentage : ![Model Evaluation](./DataPercentage.png)
 
 ## Model Architecture
 The CNN model consists of the following layers:
@@ -61,6 +63,8 @@ The final model showcases well-balanced performance, displaying no signs of unde
 The implementation of class rebalancing has enhanced the model's performance in both training and validation datasets.
 In total 30 epochs, the final model attains an accuracy of 85% on the training set and 83% on the validation set.
 The addition of batch normalization failed to enhance both training and validation accuracy.
+
+Final Accracy : ![Model Evaluation](./Result.png)
 
 ## Future Work
 - Experiment with different model architectures and hyperparameters.
