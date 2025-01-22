@@ -29,6 +29,11 @@ The CNN model consists of the following layers:
 ## Training
 The model is trained using the Adam optimizer and sparse categorical cross-entropy loss. Early stopping and learning rate reduction on plateau are used as callbacks to improve training efficiency.
 
+Final Model Summary: ![Model Evaluation](./ModelSummary.png)
+
+
+
+
 ## Usage
 1. Clone the repository:
     ```bash
